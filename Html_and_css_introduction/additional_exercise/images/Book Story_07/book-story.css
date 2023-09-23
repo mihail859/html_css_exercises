@@ -1,0 +1,19 @@
+/*•	<main> for the main container
+o	Width container: 400px;
+o	Background color: #dddddd;
+o	Border: 1px solid #000000;
+o	Margin Left: 20px;
+o	Padding: 10px;
+•	<p> tag for paragraph + font-size: 18px;
+•	<em> tag for italic text
+*/
+.wrapper{
+    width: 400px;
+    background-color: #dddddd;
+    border: 1px solid #000000 ;
+    margin-left: 20px ;
+    padding: 10px;
+}
+p{
+    font-size: 18px;
+}
