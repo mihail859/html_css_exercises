@@ -28,7 +28,7 @@ o	Border: 1px solid #000000;
     border:  1px solid #000000;
     padding: 10px 20px;
     background-color: #a6e1ec;
-
+    margin: 0 auto;
 }
 img{
     width: 100px;
