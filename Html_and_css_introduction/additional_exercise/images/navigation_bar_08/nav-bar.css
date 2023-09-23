@@ -1,0 +1,36 @@
+/*
+•	<li> tag for list item
+o	Text size: 24px;
+o	Line Height: 40px;
+o	Height: 40px;
+o	Padding: 20px;
+•	<a> tag for hyperlink
+o	text-decoration: none;
+o	Text-Color: #ffffff;
+*/
+body {
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+nav{
+    
+    text-align: center;
+}
+ul {
+    background-color: #444;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
