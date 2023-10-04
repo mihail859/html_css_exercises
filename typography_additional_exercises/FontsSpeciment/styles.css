@@ -2,6 +2,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #eee;
 }
 
 /* Apply Great Vibes font-family to headings */
@@ -9,4 +10,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Great Vibes", cursive;
     line-height: 1.2;
     font-weight: bold;
+}
+.third ol{
+    list-style: upper-roman;
+    padding-left: 5em;
+}
+.third ol li:last-child{
+    color:blueviolet
+}
+.ul-section .se{
+    list-style: square;
+}
+.ul-section .the{
+    list-style: circle;
+}
+.third ol li:nth-child(2){
+    color: coral;
 }
