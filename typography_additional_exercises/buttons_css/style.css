@@ -10,3 +10,37 @@ h2{
 .first, .second, .third{
     text-align: center;
 }
+.first button{
+    border: 5px solid;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+}
+.second button{
+    border: 5px solid;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+    background-color: #3498db
+}
+.second button:hover{
+    background-color: brown;
+}
+.third :not(.green){
+    border: 5px solid;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+    background-color: #3498db;
+
+}
+.third button:nth-child(3){
+    border: 5px solid;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+    background-color: green;
+}
+.third button:nth-child(3):hover{
+    background-color: coral;
+}
