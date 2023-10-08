@@ -21,22 +21,7 @@ div{
     font-weight: 600;
     font-size: 20px;
 }
-/*•	<button>:
-o	Width: 250px
-o	Font : Work Sans
-o	Generic Font: sans-serif
-o	Font weight 600
-o	Font size: 18px
-o	Border radius: 4px
-o	Background color: #d5384d
-o	Text color: #fff
-o	Letter spacing: 1px
-o	Align the text to the center
-o	Top & bottom padding 8px
-o	Left & right padding 16px
-o	Top margin: 20px
-o	Bottom margin: 20px
-*/
+
 button{
     width: 250px;
     font-family: Work Sans, sans-serif;
@@ -54,8 +39,16 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
 
-
 }
-
+/*•	<p>:
+o	Fonts: Georgia, Cambria, Times New Roman, Times
+o	Generic Font: serif
+o	Font size: 18px
+o	Height of the line: 30px
+o	Top margin: 0
+*/
+p{
+    
+}
 
 
