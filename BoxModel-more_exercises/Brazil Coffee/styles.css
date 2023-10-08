@@ -48,7 +48,10 @@ o	Height of the line: 30px
 o	Top margin: 0
 */
 p{
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0;
 }
 
 
