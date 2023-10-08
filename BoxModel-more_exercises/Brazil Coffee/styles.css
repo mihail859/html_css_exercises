@@ -37,7 +37,25 @@ o	Left & right padding 16px
 o	Top margin: 20px
 o	Bottom margin: 20px
 */
+button{
+    width: 250px;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #d5384d;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+
+}
 
 
 
