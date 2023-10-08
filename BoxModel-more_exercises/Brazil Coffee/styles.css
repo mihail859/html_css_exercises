@@ -40,13 +40,7 @@ button{
     margin-bottom: 20px;
 
 }
-/*•	<p>:
-o	Fonts: Georgia, Cambria, Times New Roman, Times
-o	Generic Font: serif
-o	Font size: 18px
-o	Height of the line: 30px
-o	Top margin: 0
-*/
+
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
