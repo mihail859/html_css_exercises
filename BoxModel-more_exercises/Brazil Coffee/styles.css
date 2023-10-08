@@ -1,0 +1,12 @@
+/*•	<section>:
+o	Solid border with size 8px and color #e6e6e6
+o	Paddings: 16px
+o	Width: 451px
+o	Height: 540px
+*/
+section{
+    border: 8px solid #e6e6e6;
+    padding: 16px;
+    width: 451px;
+    height: 540px;
+}
