@@ -1,1 +1,45 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: antiquewhite;
+    margin: 30px;
+}
 
+header {
+    background-color: antiquewhite;
+    padding-top: 20px; /* Add padding for spacing */
+    border-bottom: 1px solid #cc2323;
+    margin: 30px;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0; /* Remove default margin for h1 */
+    padding-bottom: 0;
+}
+
+nav {
+    background-color: antiquewhite; /* Match the background color of the header */
+    text-align: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-left: 10px; /* Add spacing between list items */
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+main section {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
