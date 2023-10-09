@@ -5,4 +5,12 @@ article h2{
     font-size: 36px;
     color: #fefecc;
     margin: 12px;
+    text-align: center;
+}
+article p{
+    color:  #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    padding: 10px;
+    text-indent: 30px;
 }
