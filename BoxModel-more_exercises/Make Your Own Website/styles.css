@@ -9,6 +9,9 @@ div{
     background-color: #0A2c48;
     color: #fff;
     border-radius: 4px;
-    
 
+
+}
+div:hover{
+    background-color:#2A4C68;
 }
