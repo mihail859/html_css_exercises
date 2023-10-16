@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navigation Flexbox</title>
+    </head>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        html{
+            padding: 2em;
+        }
+       
+        header{
+            border-bottom: 2px solid rgb(0, 0, 0);
+            display:flex;
+            justify-content: space-between;
+        }
+        header h1{
+            padding-bottom: 0.5em;
+        }
+        nav> ul{
+            display: flex;
+        }
+        nav ul{
+            display:flex;
+            gap: 0.5em;
+        }
+        nav ul li{
+            display: block;
+            gap: 0.5em;
+            
+        }
+        nav ul li a{
+            color:green;
+        }
+        main{
+            padding-top: 1em;;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4em;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>Heading level 1</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sapiente quod animi impedit, laborum corrupti voluptas excepturi expedita velit qui et consequuntur dolor, voluptatibus praesentium libero placeat doloremque molestiae quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iusto expedita voluptatibus nisi, enim sit iure at omnis, explicabo molestias odio, fuga soluta quibusdam nulla magnam! Voluptas nostrum qui hic!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, fugiat. Voluptatibus architecto, dolorum mollitia similique voluptates placeat alias a eaque quidem, quos beatae consequuntur error officiis quam laborum omnis inventore.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem molestiae placeat exercitationem! Laudantium voluptatum tenetur amet? Necessitatibus quod iure quam cupiditate ducimus unde, consequuntur nobis laboriosam rem excepturi dolorem!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci earum totam ipsa illum obcaecati asperiores nulla enim. Dolore, dolorum porro. Quod debitis provident quae, explicabo corporis commodi quaerat omnis.</p>
+
+        </main>
+
+    </body>
+</html>
