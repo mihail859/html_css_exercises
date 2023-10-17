@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo - Galery</title>
+    </head>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            padding: 3em;
+            justify-content: center;
+        }
+        .gallery{
+            display:flex;
+            max-width: 50em;
+            margin: 0 auto;
+        }
+        .gallery ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+        .gallery li{
+            flex: 1 1 150px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            background: white;
+            border: 6px solid #000;
+            padding:2em 1em;
+            box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.5);
+
+        }
+        .gallery img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        
+         
+       
+
+        
+    </style>
+    <body>
+        <section class="gallery">
+            <ul>
+                    <li><img src="picture1.jpg" alt=""></li>
+                    <li><img src="picture2.jpg" alt=""></li>
+                    <li><img src="picture3.jpg" alt=""></li>
+                    <li><img src="picture4.jpg" alt=""></li>
+                    <li><img src="picture5.jpg" alt=""></li>
+                    <li><img src="picture6.jpg" alt=""></li>
+                    <li><img src="picture7.jpg" alt=""></li>
+                    <li><img src="picture8.jpg" alt=""></li>
+                    <li><img src="picture9.jpg" alt=""></li>
+            </ul>
+        </section>
+    </body>
+</html>
+
