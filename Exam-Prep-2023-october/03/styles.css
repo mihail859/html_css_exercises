@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d01919;
+    padding: 1em 2em 1em 2em;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.contacts ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap:1em
+}
+.main-content ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap:1em;
+    padding-left: 60em;
+    padding-top: 2em;
+}
+.main-content ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main-content{
+    background-image: url(./image/fitness-main.jpg);
+    background-repeat: no-repeat; 
+   background-position: center -20em;
+}
+.main-content .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    padding-bottom: 2em;
+}
+.main-content .banner h1{
+    padding-bottom: 1em;
+    color: white;
+}
+.main-content .banner h1 span{
+    padding: 0 0.2em 0 0.2em ;
+    font-size: 32px;
+}
+.main-content .banner p{
+    max-width: 53ch;
+    color: white;
+    padding-bottom: 3em;
+    text-align: center;
+}
+.main-content .banner .button{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #000;
+    background-color: #d01919;
+    padding: 12px 8px 12px 8px;
+    border-radius: 6px;
+    margin-bottom: 5em;
+}
+.content-site{
+    display: flex;
+    margin-left: 3em;
+    gap: 3em;
+}
+.icon{
+    width: 10%;
+    height: auto;
+}
+.hr{
+    display: block;
+    margin: 1em auto;
+    width: 5ch;
+    height: 2px;
+    background: #D01919;
+    margin-bottom: 2em;
+}
+h3{
+    color:#D01919;
+}
+.icon1{
+    border-radius: 6px;
+}
+.content-site .section-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-header-section{
+    background-color: #efefef;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+footer{
+    background-color: #D01919;
+    text-align: center;
+    padding: 1em 0 1em 0;
+
+}
+.section-card{
+    flex: 1 0 30%;
+}
+.section-card p{
+    max-width: 30ch;
+    text-align: center;
+}
+.second-header-section .content-site .section-card p{
+    color: #a29c93;
+}
+.second-header-section .content-site .section-card h2,
+.second-header-section .content-site .section-card h3{
+   padding: 0.2em 0 0.2em 0;
+}
+.section-card h3{
+    padding: 0.5em 0 1em 0;
+}
