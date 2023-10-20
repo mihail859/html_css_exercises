@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'PT Sans', sans-serif;
-}
+}   
 .contacts{
     display: flex;
     justify-content: space-between;
@@ -129,4 +129,11 @@ footer{
 }
 .section-card h3{
     padding: 0.5em 0 1em 0;
+}
+.hide{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
