@@ -1,0 +1,41 @@
+@media (max-width: 600px){
+    .navbar-link{
+        display: none;
+    }
+    .home-textinput{
+        display: none;
+    }
+    .home-middle{
+        bottom: 0.2em;
+        right: 14em;
+    }
+    .navbar-logo-title{
+        font-size: 35px;
+    }
+    .home-hero1{
+        flex-direction: column;
+    }
+    .home-container03{
+        align-items: center;
+    }
+    .home-cards-container{
+        max-width: 600px;
+    }
+    .category-card-image{
+        width: 260px;
+        height: 180px;
+    }
+    .home-links-container{
+        flex-direction: column;
+    }
+    .home-footer1{
+        flex-direction: column-reverse;
+    }
+    .section-container{
+        flex-direction: column;
+    }
+    .home-image6 {
+        width: 100%;
+    }
+    
+}
