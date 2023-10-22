@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../Desktop/HTML&CSS/exam/01"
+		},
+		{
+			"path": "../../../../../Desktop/HTML&CSS/exam/02"
+		},
+		{
+			"path": "../../../../../Desktop/HTML&CSS/exam/03"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html_css_exercises"
+	}
+}
